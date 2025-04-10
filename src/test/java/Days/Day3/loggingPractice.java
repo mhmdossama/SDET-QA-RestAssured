@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class Logging {
+public class loggingPractice {
     //logging
     //log().all() - logs all the details of the request and response
     //log().uri() - logs the URI of the request
@@ -17,7 +17,7 @@ public class Logging {
     @Test
     public void logging() {
         String baseUrl = "https://reqres.in/api/users";
-        given()
+        given().log().headers()
                 .when()
                 .get(baseUrl)
                 .then()

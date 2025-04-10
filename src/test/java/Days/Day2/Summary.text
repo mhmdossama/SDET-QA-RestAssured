@@ -1,0 +1,13 @@
+Day 2 - RestAssured
+--------------------
+Post
+-------------------
+How many ways we create request body in RestAssured?
+
+1. Using String
+2. Using JSON
+3. Using POJO (Plain Old Java Object)
+4. Using File
+5. Using HashMap
+
+used API: https://reqres.in/api/users
